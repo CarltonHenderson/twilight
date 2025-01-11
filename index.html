@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twilight Hike Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Twilight Hike Tracker</h1>
+        <p id="highlight-time" class="highlight"></p>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="time-markers">
+            <div>
+                <span id="start-time"></span>
+                <p class="time-label">Start</p>
+            </div>
+            <div>
+                <span id="turnaround-time" class="copyable"></span>
+                <p class="time-label">Turnaround</p>
+            </div>
+            <div>
+                <span id="dusk-time"></span>
+                <p class="time-label">Dusk</p>
+            </div>
+        </div>
+        <div id="output">
+            <p id="location"></p>
+            <p id="timeUntilDusk"></p>
+        </div>
+        <p id="loading" class="loading-text">Calculating times...</p>
+        <button id="reset" title="Hold to reset">Hold to Reset</button>
+        <div id="toast" class="toast">Copied to clipboard!</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/suncalc/suncalc.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
