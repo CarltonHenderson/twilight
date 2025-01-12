@@ -4,7 +4,7 @@
   "description": "Track your hike with twilight and turnaround times.",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#ff9a9e",
   "theme_color": "#ff9a9e",
   "icons": [
     {
