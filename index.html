@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Twilight Hike Tracker</title>
+    <title>Twilight Hike Timer</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#ff9a9e" />
   </head>
   <body>
     <div class="container">
-      <h1>Twilight Hike Tracker</h1>
+      <h1>Twilight Hike Timer</h1>
       <p id="highlight-time" class="highlight"></p>
       <div id="progress-container">
         <div id="progress-bar"></div>
@@ -46,7 +46,7 @@
           .register("service-worker.js")
           .then((reg) => console.log("Service Worker registered!", reg))
           .catch((err) =>
-            console.log("Service Worker registration failed:", err)
+            console.log("Service Worker registration failed:", err),
           );
       }
     </script>
