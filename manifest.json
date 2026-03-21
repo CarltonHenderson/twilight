@@ -1,5 +1,6 @@
 {
   "name": "Twilight Hike Timer",
+  "orientation": "portrait",
   "short_name": "Hike Timer",
   "description": "Track your hike with twilight and turnaround times.",
   "start_url": "index.html",
